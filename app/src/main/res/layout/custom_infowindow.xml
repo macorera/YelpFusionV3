@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    >
+    <TextView
+        android:id="@+id/tvIwLocationName"
+        android:background="@color/colorRed"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:padding="5sp"
+        android:layout_gravity="center_horizontal" android:textAppearance="?android:attr/textAppearanceMedium"
+
+        />
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+
+    <ImageView
+        android:layout_width="128sp"
+        android:layout_height="128sp"
+        android:id="@+id/ivIwLocationAvatar"
+        android:src="@mipmap/ic_business_avatar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5sp"
+        android:layout_gravity="center_vertical"
+        android:paddingTop="5sp"
+        >
+
+        <TextView
+            android:id="@+id/tvIwAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+    </LinearLayout>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5sp"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="5sp"
+            >
+
+            <TextView
+                android:id="@+id/tvIwTelephone"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5sp"
+            android:layout_gravity="center_vertical"
+            >
+
+
+
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:stepSize="1"
+                android:rating="0"
+                android:theme="@style/RatingBar"
+                android:id="@+id/rbIwratingbar"
+                style="?android:attr/ratingBarStyleSmall"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
